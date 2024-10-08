@@ -1,5 +1,5 @@
 ```
-# Playwright-BDD-TS-POM Automation Framework
+# mw-project Automation Framework
 
 This framework integrates Playwright, Cucumber, TypeScript, and the Page Object Model (POM) to build a reliable and scalable automation solution. It supports Behavior-Driven Development (BDD) with the flexibility of Playwright for end-to-end testing. This framework is designed to run cross-browser tests, generate detailed reports, and provide an organized structure for maintaining large test suites.
 
@@ -31,7 +31,7 @@ npm install @playwright/test @cucumber/cucumber allure-playwright @cucumber/pret
 
 1. Clone the project repository from GitHub:
    ```bash
-   git clone https://github.com/your-repo/playwright-bdd-ts-pom.git
+   git clone https://github.com/your-repo/mw-project.git
    ```
 
 2. Install all dependencies:

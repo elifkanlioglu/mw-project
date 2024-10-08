@@ -1,5 +1,5 @@
 {
-  "name": "playwright-bdd-ts-pom",
+  "name": "mw-project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "@cucumber/pretty-formatter": "^1.0.1",
-    "playwright-bdd-ts-pom": "file:"
+    "mw-project": "file:"
   }
 }
