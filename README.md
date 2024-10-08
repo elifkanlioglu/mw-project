@@ -7,7 +7,6 @@ This framework integrates Playwright, Cucumber, TypeScript, and the Page Object 
 - [Prerequisites](#prerequisites)
 - [Environment Setup](#environment-setup)
 - [Framework Structure and Usage](#framework-structure-and-usage)
-- [Project and Git Workflow](#project-and-git-workflow)
 
 ## Prerequisites
 
@@ -39,10 +38,15 @@ npm install @playwright/test @cucumber/cucumber allure-playwright @cucumber/pret
    npm install
    ```
 
-3. Open the project folder in Visual Studio Code:
+3. Install playwright: 
    ```bash
-   code .
+   npx playwright install
    ```
+3. To run the test: 
+   ```bash
+   npx cucumber-js
+   ```
+
 
 4. Install recommended VS Code extensions for a better development experience:
    - **Better Comments**
@@ -73,47 +77,6 @@ npm install @playwright/test @cucumber/cucumber allure-playwright @cucumber/pret
 
 6. **The `playwright.config.ts` File**
    - Configures Playwright to run with specific settings, such as screenshots on failure, video retention on failure, and HTML report generation.
-
-## Project and Git Workflow
-
-1. **Create a New Repository**
-   - Upload this project to GitHub and create a new repository.
-
-2. **Create a `develop` Branch**
-   - After cloning the repository, create a new branch for active development:
-     ```bash
-     git checkout -b develop
-     ```
-
-3. **Create Feature Branches**
-   - For each feature or bug fix, create a new branch from the `develop` branch. Follow this naming convention: `feature/<tag>_description`. Example:
-     ```bash
-     git checkout -b feature/@login_user_login
-     ```
-
-4. **Sync with Remote Repository**
-   - Periodically, ensure your local repository is updated:
-     ```bash
-     git fetch
-     git pull
-     ```
-
-5. **Work on Features**
-   - Implement and test your changes on the feature branch.
-
-6. **Commit and Push Changes**
-   - Once your work is complete and verified:
-     ```bash
-     git add .
-     git commit -m "Implemented feature: User login with valid credentials"
-     git push origin feature/@login_user_login
-     ```
-
-7. **Create a Pull Request**
-   - Open a pull request from the feature branch to the `develop` branch on GitHub for code review.
-
-8. **Repeat for New Features**
-   - Follow the same process for each new feature or change until the project is complete.
 
 ---
 
