@@ -30,7 +30,7 @@ npm install @playwright/test @cucumber/cucumber allure-playwright @cucumber/pret
 
 1. Clone the project repository from GitHub:
    ```bash
-   git clone https://github.com/your-repo/mw-project.git
+   git clone https://github.com/elifkanlioglu/mw-project.git
    ```
 
 2. Install all dependencies:
