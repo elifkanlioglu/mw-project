@@ -2,3 +2,21 @@ node_modules/
 /reports
 /blob-report/
 /playwright/.cache/
+
+# Playwright output directories
+playwright-report/
+test-results/
+trace.zip
+
+# Coverage directory
+coverage/
+*.lcov
+
+# Output from Playwright
+reports/screenshots/
+reports/videos/
+trace/
+
+allure-report/
+
+reports/cucumber-report.json
